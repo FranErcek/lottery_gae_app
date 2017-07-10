@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lottery numbers</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <p>The winning numbers are:</p>
+    <ul>
+    {% for number in numbers %}
+        <li>{{ number }}</li>
+    {% endfor %}
+    </ul>
+    <p>Don't forget to buy your lottery tickets!</p>
+</body>
+</html>
